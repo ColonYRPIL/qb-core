@@ -12,6 +12,266 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['burgershot'] = {
+        label = 'Burgershot',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Worker',
+                payment = 100
+            },
+            ['2'] = {
+                name = 'Shift Manager',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 200
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 300
+            },
+        },
+    },
+    
+    ['catcafe'] = {
+        label = 'UwU Cafe',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Worker',
+                payment = 100
+            },
+            ['2'] = {
+                name = 'Shift Manager',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 200
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 300
+            },
+        },
+    },
+    
+    ['arcade'] = {
+        label = 'Arcade-Bar',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Worker',
+                payment = 100
+            },
+            ['2'] = {
+                name = 'Shift Manager',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 200
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 300
+            },
+        },
+    },
+
+    ['pizza'] = {
+        label = 'Pizzaria',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Worker',
+                payment = 100
+            },
+            ['2'] = {
+                name = 'Shift Manager',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 200
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 300
+            },
+        },
+    },
+    
+    ['beanmachine'] = {
+        label = 'Bean Machine',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Worker',
+                payment = 100
+            },
+            ['2'] = {
+                name = 'Shift Manager',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 200
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 300
+            },
+        },
+    },
+    
+    ['vu'] = {
+        label = 'Strip Club',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Worker',
+                payment = 75
+            },
+            ['2'] = {
+                name = 'Shift Manager',
+                payment = 100
+            },
+            ['3'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 150
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 200
+            },
+        },
+    },
+    
+    ['henhouse'] = {
+        label = 'Hen House',
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Worker',
+                payment = 100
+            },
+            ['2'] = {
+                name = 'Shift Manager',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 200
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 300
+            },
+        },
+    },
+
+    ['PopsDiner'] = {
+        label = 'Pops Diner',
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Worker',
+                payment = 100
+            },
+            ['2'] = {
+                name = 'Shift Manager',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 200
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 300
+            },
+        },
+    },
+    
+    ['Tequilala'] = {
+        label = 'Tequilala',
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Worker',
+                payment = 100
+            },
+            ['2'] = {
+                name = 'Shift Manager',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 200
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 300
+            },
+        },
+    },
 	['police'] = {
 		label = 'Law Enforcement',
 		defaultDuty = true,
@@ -19,24 +279,33 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 500
             },
 			['1'] = {
                 name = 'Officer',
-                payment = 75
+                payment = 600
             },
 			['2'] = {
                 name = 'Sergeant',
-                payment = 100
+                payment = 800
             },
 			['3'] = {
                 name = 'Lieutenant',
-                payment = 125
+                payment = 850
             },
-			['4'] = {
+            ['4'] = {
+                name = 'Captain',
+                payment = 900
+            },
+            ['5'] = {
+                name = 'Asst. Chief',
+                isboss = true,
+                payment = 950
+            },
+			['6'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 1000
             },
         },
 	},
